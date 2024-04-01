@@ -1,7 +1,13 @@
 {
   "dependencies": {
+    "assert": "^2.1.0",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.4",
     "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "test": "mocha --recursive --exit"
   }
 }
