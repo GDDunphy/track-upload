@@ -9,9 +9,11 @@ npm install
 config.js -> 
     change path_to_file value to location of .xlsx file to be uploaded
 
+edit package.json scripts 'start' and 'test' to include the valid MONGODB_PASSWORD env variable
+
 ## Environment Variables
 
-MONGODB_PASSWORD = 59an6xiBM7hMKC0a
+MONGODB_PASSWORD in email
 
 ## Test
 

@@ -31,8 +31,9 @@ async function checkErrors(track) {
     return [track, issues]
 }
 
-async function processFile() {
-    const workbook = XLSX.readFile(config.path_to_file);
+async function processFile(path) {
+    let path_to_file = path || config.path_to_file
+    const workbook = XLSX.readFile(path_to_file);
     const sheet_name_list = workbook.SheetNames;
     const xlData = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]], {
     });
