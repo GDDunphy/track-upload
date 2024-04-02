@@ -8,7 +8,7 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "test": "MONGODB_PASSWORD=59an6xiBM7hMKC0a mocha --recursive --exit",
-    "start": "MONGODB_PASSWORD=59an6xiBM7hMKC0a node index.js"
+    "test": "MONGODB_PASSWORD=<INSERT> mocha --recursive --exit",
+    "start": "MONGODB_PASSWORD=<INSERT> node index.js"
   }
 }
